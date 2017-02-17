@@ -3,7 +3,7 @@
 	"authors": [
 		"Георгий Устинов"
 	],
-	"description": "Additional usable \"User-Exception\" common classes (IOException, NetworkException, ParseException, etc.), that you want to catch by type. The package is partly based on DIP33. Feel free to propose for addition anything you want.",
+	"description": "Missing in Phobos exception classes: IOException, NotImplementedException, etc.",
 	"license": "BSL-1.0",
 	
 	"targetName": "exceptions",
