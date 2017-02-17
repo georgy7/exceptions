@@ -23,3 +23,9 @@ class EncodingException : Exception {
         super(msg, file, line, next);
     }
 }
+
+class NotImplementedException : Exception {
+    this(string file = __FILE__, size_t line = __LINE__) pure nothrow @nogc @safe {
+        super("Not implemented yet.", file, line);
+    }
+}
