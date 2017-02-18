@@ -3,7 +3,7 @@
 	"authors": [
 		"Георгий Устинов"
 	],
-	"description": "Missing in Phobos, dlib and vibe.d usable exception classes: IOException, NotImplementedException, etc. Feel free to propose more. Zero dependency library.",
+	"description": "Missing in Phobos, dlib and vibe.d usable exception classes: IOException, NotImplementedException, etc. Feel free to propose more.",
 	"license": "BSL-1.0",
 	
 	"targetName": "exceptions",
