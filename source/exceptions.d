@@ -42,7 +42,17 @@ class ArgumentException : Exception {
     }
 }
 
-class NotImplementedException : Exception {
+/++
+ + Good for prototyping.<br/>
+ + For example, you have an interface. And you are going to implement it,
+ + but you don't want to implement all these methods right now.<br/>
+ + In this case, it's better to throw the exceptions from them,
+ + than to return `null`, `-1`, an empty string, etc.<br/>
+ + And you should not catch them.
+ + Because so you will find the not implemented things.
+ +/
+final class NotImplementedException : Exception {
+    /// Just use it without any arguments.
     this(string file = __FILE__, size_t line = __LINE__) pure nothrow @nogc @safe {
         super("Not implemented yet.", file, line);
     }

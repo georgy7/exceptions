@@ -1,8 +1,10 @@
 .dub
+.directory
 docs.json
 __dummy.html
 *.o
 *.obj
 __test__*__
 lib/
-
+docs/
+docs.json
