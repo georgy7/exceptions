@@ -48,8 +48,8 @@ class ArgumentException : Exception {
  + but you don't want to implement all these methods right now.<br/>
  + In this case, it's better to throw the exceptions from them,
  + than to return `null`, `-1`, an empty string, etc.<br/>
- + And you should not catch them.
- + Because so you will find the not implemented things.
+ + And you also should not catch them.
+ + Thus, the unimplemented things are always in sight.
  +/
 final class NotImplementedException : Exception {
     /// Just use it without any arguments.
