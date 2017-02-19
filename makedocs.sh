@@ -16,3 +16,4 @@ cd ..
 dub run ddox -- generate-html docs.json docs/
 ddoxFound=(~/.dub/packages/ddox-*)
 cp -R  ${ddoxFound[0]}/ddox/public/* docs/
+dub run --single changedocs.d
