@@ -6,9 +6,6 @@
     dependency "htmld" version="~>0.2.16"
 +/
 
-// This file released into the public domain.
-// For more information, please refer to <http://unlicense.org/>
-
 // The reason, why I've created this script, was
 // that I could not understand, how to use custom layouts with ddox.
 // https://github.com/rejectedsoftware/ddox/issues/88
