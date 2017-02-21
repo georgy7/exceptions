@@ -2,7 +2,7 @@
 /+ dub.sdl:
     name "changedocs"
     authors "Георгий Устинов"
-    license "Unlicense"
+    license "BSL-1.0"
     dependency "htmld" version="~>0.2.16"
 +/
 
