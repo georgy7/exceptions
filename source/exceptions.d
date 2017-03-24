@@ -18,6 +18,26 @@ class InterruptedInputException : InterruptedStreamException {
 }
 
 /++
+ + You are trying to read from a closed input stream
+ + with a method, that has mandatory result by design (non-optional, non-nullable).
+ + The stream has no data for you, but you read from it.
+ + This is almost certainly a bug, but, sometimes, this could be used for the recoverable behaviour.
+ + <b>Note, the class is not derived from InterruptedStreamException.</b>
+ +/
+class ClosedInputStreamException : Exception {
+    mixin basicExceptionCtors;
+}
+
+/++
+ + You are trying to write to a closed output stream.
+ + This is almost certainly a bug, but, sometimes, this could be used for the recoverable behaviour.
+ + <b>Note, the class is not derived from InterruptedStreamException.</b>
+ +/
+class ClosedOutputStreamException : Exception {
+    mixin basicExceptionCtors;
+}
+
+/++
  + The output stream was not closed properly.
  + Somebody is trying to write into it, but it can't receive the data by some reason.
  +/
