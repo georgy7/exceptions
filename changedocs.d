@@ -2,12 +2,16 @@
 /+ dub.sdl:
     name "changedocs"
     authors "Георгий Устинов"
-    license "Unlicense"
+    license "CC0"
     dependency "htmld" version="~>0.2.16"
 +/
 
-// This file released into the public domain.
-// For more information, please refer to <http://unlicense.org/>
+// Changedocs - The simple documentation transformation script.
+// Written in 2017 by Georgy Ustinov <httpcatharsis@gmail.com>
+// To the extent possible under law, the author have dedicated all copyright
+// and related and neighboring rights to this software to the public domain worldwide.
+// This software is distributed without any warranty.
+// For the full text of the CC0 Public Domain Dedication, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 // The reason, why I've created this script, was
 // that I could not understand, how to use custom layouts with ddox.
@@ -36,7 +40,7 @@ void modifyFile(string fileName) {
         n.detach();
     }
 
-    auto ribbonElement = doc.createElement("a");
+    auto ribbonElement = doc.createElement("a"); // TODO fix this (<a> inside <a>).
     ribbonElement.html = ribbon;
     doc.querySelector("body").appendChild(ribbonElement);
 
