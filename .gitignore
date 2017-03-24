@@ -1,4 +1,5 @@
 .dub
+.idea
 .directory
 docs.json
 __dummy.html
