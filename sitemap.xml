@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://127.0.0.1/index.html</loc></url>
 <url><loc>http://127.0.0.1/exceptions.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/ClosedInputStreamException.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/ClosedOutputStreamException.html</loc></url>
 <url><loc>http://127.0.0.1/exceptions/InterruptedInputException.html</loc></url>
 <url><loc>http://127.0.0.1/exceptions/InterruptedOutputException.html</loc></url>
 <url><loc>http://127.0.0.1/exceptions/InterruptedStreamException.html</loc></url>

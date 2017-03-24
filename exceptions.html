@@ -45,6 +45,30 @@ $('#symbolSearchPane').show();
 					</tr>
 					<tr>
 						<td>
+							<a id="ClosedInputStreamException" href="./exceptions/ClosedInputStreamException.html" class="public">
+								<code>ClosedInputStreamException</code>
+							</a>
+						</td>
+						<td>You are trying to read from a closed input stream
+ with a method, that has mandatory result by design (non-optional, non-nullable).
+ The stream has no data for you, but you read from it.
+ This is almost certainly a bug, but, sometimes, this could be used for the recoverable behaviour.
+ <b>Note, the class is not derived from InterruptedStreamException.</b>
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a id="ClosedOutputStreamException" href="./exceptions/ClosedOutputStreamException.html" class="public">
+								<code>ClosedOutputStreamException</code>
+							</a>
+						</td>
+						<td>You are trying to write to a closed output stream.
+ This is almost certainly a bug, but, sometimes, this could be used for the recoverable behaviour.
+ <b>Note, the class is not derived from InterruptedStreamException.</b>
+</td>
+					</tr>
+					<tr>
+						<td>
 							<a id="InterruptedInputException" href="./exceptions/InterruptedInputException.html" class="public">
 								<code>InterruptedInputException</code>
 							</a>
