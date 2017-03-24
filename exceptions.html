@@ -45,51 +45,52 @@ $('#symbolSearchPane').show();
 					</tr>
 					<tr>
 						<td>
-							<a id="ArgumentException" href="./exceptions/ArgumentException.html" class="public">
-								<code>ArgumentException</code>
+							<a id="InterruptedInputException" href="./exceptions/InterruptedInputException.html" class="public">
+								<code>InterruptedInputException</code>
 							</a>
 						</td>
-						<td>Applicable to wide range of situations, related to incorrect
- user behaviour, including the validation failures of the user input.<br>
- It even can be used as the base class for all exceptions with messages,
- that must be shown to user.
- It is pretty common pattern to have such exception class.<br>
- Note, that in case of Internet applications, you should not show
- user the stacktrace of these exceptions, but you should log it instead.<br>
- When your exception has the empty message, just show user a standard error notice.
- Everything else will be in the logs.
+						<td>The input stream was not closed properly.
+ Somebody is trying to read from it, but the stream can&#39;t give anything by some reason.
 </td>
 					</tr>
 					<tr>
 						<td>
-							<a id="IOException" href="./exceptions/IOException.html" class="public">
-								<code>IOException</code>
+							<a id="InterruptedOutputException" href="./exceptions/InterruptedOutputException.html" class="public">
+								<code>InterruptedOutputException</code>
 							</a>
 						</td>
-						<td>For files, whichever type of streams, etc.
+						<td>The output stream was not closed properly.
+ Somebody is trying to write into it, but it can&#39;t receive the data by some reason.
 </td>
 					</tr>
 					<tr>
 						<td>
-							<a id="NetworkException" href="./exceptions/NetworkException.html" class="public">
-								<code>NetworkException</code>
+							<a id="InterruptedStreamException" href="./exceptions/InterruptedStreamException.html" class="public">
+								<code>InterruptedStreamException</code>
 							</a>
 						</td>
-						<td></td>
+						<td>Abstract. If you want to catch simply all stream interruptions.
+</td>
 					</tr>
 					<tr>
 						<td>
-							<a id="NotImplementedException" href="./exceptions/NotImplementedException.html" class="public">
-								<code>NotImplementedException</code>
+							<a id="RecoverableHellException" href="./exceptions/RecoverableHellException.html" class="public">
+								<code>RecoverableHellException</code>
 							</a>
 						</td>
-						<td>Good for prototyping.<br>
- For example, you have an interface. And you are going to implement it,
- but you don&#39;t want to implement all these methods right now.<br>
- In this case, it&#39;s better to throw the exceptions from them,
- than to return <code class="lang-d"><span class="kwd">null</span></code>, <code class="lang-d"><span class="pun">-</span><span class="lit">1</span></code>, the empty strings, etc.<br>
- And you also should not catch them.
- Thus, the unimplemented things are always in sight.
+						<td>If you have some good reason to not use <code class="lang-d"><span class="kwd">assert</span><span class="pun">(</span><span class="lit">0</span><span class="pun">)</span></code>.<br>
+ In other words, if you really think you need a recoverable <code class="lang-d"><span class="kwd">assert</span><span class="pun">(</span><span class="lit">0</span><span class="pun">)</span></code>.<br>
+ Be careful.
+ See <a target="_blank" href="https://forum.dlang.org/post/mailman.1239.1490287548.31550.digitalmars-d&#64;puremagic.com">the discussion</a>.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a id="UserBehaviourException" href="./exceptions/UserBehaviourException.html" class="public">
+								<code>UserBehaviourException</code>
+							</a>
+						</td>
+						<td>Abstract. Just a base to differ the user things from the system things.
 </td>
 					</tr>
 				</table>

@@ -2,18 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://127.0.0.1/index.html</loc></url>
 <url><loc>http://127.0.0.1/exceptions.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/ArgumentException.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/ArgumentException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/ArgumentException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/ArgumentException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/IOException.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/IOException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/IOException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/IOException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NetworkException.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NetworkException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NetworkException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NetworkException.this.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NotImplementedException.html</loc></url>
-<url><loc>http://127.0.0.1/exceptions/NotImplementedException.this.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/InterruptedInputException.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/InterruptedOutputException.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/InterruptedStreamException.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/RecoverableHellException.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/RecoverableHellException.this.html</loc></url>
+<url><loc>http://127.0.0.1/exceptions/UserBehaviourException.html</loc></url>
 </urlset>
