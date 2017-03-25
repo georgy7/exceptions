@@ -3,7 +3,7 @@
 	"authors": [
 		"Георгий Устинов"
 	],
-	"description": "Standard user exception classes.",
+	"description": "Common user exception classes.",
 	"license": "BSL-1.0",
 	"homepage": "https://georgy7.github.io/exceptions/exceptions.html",
 	
