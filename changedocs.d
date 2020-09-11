@@ -7,7 +7,7 @@
 +/
 
 // Changedocs - The simple documentation transformation script.
-// Written in 2017 by Georgy Ustinov <httpcatharsis@gmail.com>
+// Written in 2017 by Georgy Ustinov <georgy.ustinov.hello@gmail.com>
 // To the extent possible under law, the author have dedicated all copyright
 // and related and neighboring rights to this software to the public domain worldwide.
 // This software is distributed without any warranty.
